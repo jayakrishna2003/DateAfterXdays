@@ -1,7 +1,7 @@
 const {addDays, format} = require('date-fns')
 
 const getDateAfterDays = days => {
-  const startDate = new Date('2020-08-22')
+  const startDate = new Date('2020-07-22')
 
   const endDate = addDays(startDate, days)
 
